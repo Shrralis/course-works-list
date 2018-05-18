@@ -335,7 +335,7 @@ var MainPageComponent = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DATA_FILE_URL", function() { return DATA_FILE_URL; });
-var DATA_FILE_URL = 'http://course.shrralis.com/data.json';
+var DATA_FILE_URL = 'https://course.shrralis.com/data.json';
 
 
 /***/ }),
