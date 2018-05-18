@@ -3,9 +3,7 @@
   "compilerOptions": {
     "outDir": "../out-tsc/app",
     "module": "es2015",
-    "types": [],
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "types": []
   },
   "exclude": [
     "src/test.ts",

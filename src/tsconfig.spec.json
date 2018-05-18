@@ -6,9 +6,7 @@
     "types": [
       "jasmine",
       "node"
-    ],
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    ]
   },
   "files": [
     "test.ts",
