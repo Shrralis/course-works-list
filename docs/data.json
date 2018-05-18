@@ -1,10 +1,13 @@
 {
-  "payload": {
-    "343ск": [
-      {
-        "name": "Жиравов Ярослав",
-        "link": "http://course.shrralis.com/"
-      }
-    ]
-  }
+  "payload": [
+    {
+      "name": "343ск",
+      "students": [
+        {
+          "name": "Жиравов Ярослав",
+          "link": "http://course.shrralis.com/"
+        }
+      ]
+    }
+  ]
 }
