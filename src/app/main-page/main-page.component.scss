@@ -9,10 +9,11 @@
 
 .mat-list-item {
   transition: border-width 0.1s ease-in-out;
-  &.active{
-   border-right: 4px solid #9f9f9f;
-   background-color: rgba(0, 0, 0, 0.03);
- }
+}
+
+.mat-list-item.active {
+  border-right: 4px solid #9f9f9f;
+  background-color: rgba(0, 0, 0, 0.03);
 }
 
 #refreshButton {

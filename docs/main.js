@@ -249,7 +249,7 @@ module.exports = "<mat-sidenav-container class=\"sidenav-container\">\n  <mat-si
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".sidenav {\n  width: 200px;\n  box-shadow: 3px 0 6px rgba(0, 0, 0, 0.24); }\n\n.mat-list-item {\n  transition: border-width 0.1s ease-in-out; }\n\n.mat-list-item.active {\n    border-right: 4px solid #9f9f9f;\n    background-color: rgba(0, 0, 0, 0.03); }\n\n#refreshButton {\n  margin: 16px 0 0 16px; }\n\nmat-card {\n  min-width: 256px;\n  box-sizing: border-box;\n  margin: 16px; }\n\nmat-card.tobacco {\n  min-width: 192px; }\n\n.card-container {\n  display: flex;\n  flex-flow: row wrap; }\n\n.fill-remaining-space {\n  flex: 1 1 auto; }\n"
+module.exports = ".sidenav {\n  width: 200px;\n  box-shadow: 3px 0 6px rgba(0, 0, 0, 0.24); }\n\n.mat-list-item {\n  transition: border-width 0.1s ease-in-out; }\n\n.mat-list-item.active {\n  border-right: 4px solid #9f9f9f;\n  background-color: rgba(0, 0, 0, 0.03); }\n\n#refreshButton {\n  margin: 16px 0 0 16px; }\n\nmat-card {\n  min-width: 256px;\n  box-sizing: border-box;\n  margin: 16px; }\n\nmat-card.tobacco {\n  min-width: 192px; }\n\n.card-container {\n  display: flex;\n  flex-flow: row wrap; }\n\n.fill-remaining-space {\n  flex: 1 1 auto; }\n"
 
 /***/ }),
 
