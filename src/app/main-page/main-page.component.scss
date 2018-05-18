@@ -1,0 +1,39 @@
+.sidenav-container {
+  //height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  box-shadow: 3px 0 6px rgba(0,0,0,.24);
+}
+
+.mat-list-item {
+  transition: border-width 0.1s ease-in-out;
+  &.active{
+   border-right: 4px solid #9f9f9f;
+   background-color: rgba(0, 0, 0, 0.03);
+ }
+}
+
+#refreshButton {
+  margin: 16px 0 0 16px;
+}
+
+mat-card {
+  min-width: 256px;
+  box-sizing: border-box;
+  margin: 16px;
+}
+
+mat-card.tobacco {
+  min-width: 192px;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.fill-remaining-space {
+  flex: 1 1 auto;
+}

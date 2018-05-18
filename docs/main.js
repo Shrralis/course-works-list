@@ -180,7 +180,7 @@ var rootRoutes = _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].fo
 
 /***/ "./src/app/main-page/main-page.component.css":
 /*!***************************************************!*\
-  !*** ./src/app/main-page/main-page.component.css ***!
+  !*** ./src/app/main-page/main-page.component.scss ***!
   \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -232,7 +232,7 @@ var MainPageComponent = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'main-page',
             template: __webpack_require__(/*! ./main-page.component.html */ "./src/app/main-page/main-page.component.html"),
-            styles: [__webpack_require__(/*! ./main-page.component.css */ "./src/app/main-page/main-page.component.css")]
+            styles: [__webpack_require__(/*! ./main-page.component.scss */ "./src/app/main-page/main-page.component.scss")]
         }),
         __metadata("design:paramtypes", [_angular_cdk_layout__WEBPACK_IMPORTED_MODULE_1__["BreakpointObserver"]])
     ], MainPageComponent);

@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 
 import { rootRoutes } from './app.routes';
@@ -15,6 +16,7 @@ import {
   MatSidenavModule,
   MatToolbarModule
 } from '@angular/material';
+import { DataService } from './_service/data.service';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,7 @@ import {
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     BrowserAnimationsModule,
     LayoutModule,
     MatToolbarModule,
@@ -33,7 +36,9 @@ import {
     MatCardModule,
     rootRoutes
   ],
-  providers: [],
+  providers: [
+    DataService
+  ],
   bootstrap: [AppComponent]
 })
 

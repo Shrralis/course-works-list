@@ -1,4 +1,4 @@
-<!--<mat-sidenav-container class="sidenav-container">
+<mat-sidenav-container class="sidenav-container">
   <mat-sidenav
     #drawer
     class="sidenav"
@@ -8,9 +8,8 @@
     [opened]="!(isHandset | async)!.matches">
     <mat-toolbar color="primary">Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#">Link 1</a>
-      <a mat-list-item href="#">Link 2</a>
-      <a mat-list-item href="#">Link 3</a>
+      <a mat-list-item *ngFor="let group of groups" ngClass="{{ currentGroup === group ? 'active' : false }}"
+         (click)="chooseGroup(group)">{{ group.name }}</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -23,14 +22,20 @@
         *ngIf="(isHandset | async)!.matches">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>Application Title</span>
+      <span>{{ _titleService.getTitle() }}</span>
     </mat-toolbar>
-  </mat-sidenav-content>
-</mat-sidenav-container>-->
 
-<div class="root">
-  <mat-card class="com-soon">
-    <mat-card-title>Coming soon</mat-card-title>
-    <mat-card-subtitle>by Shrralis</mat-card-subtitle>
-  </mat-card>
-</div>
+    <div class="card-container" *ngIf="currentGroup">
+      <mat-card *ngFor="let student of currentGroup.students">
+        <mat-card-title>
+          {{ student.name }}
+        </mat-card-title>
+        <mat-card-content>
+          <a mat-raised-button href="{{ student.link }}">
+            ПЕРЕГЛЯНУТИ <mat-icon>arrow_forward</mat-icon>
+          </a>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
