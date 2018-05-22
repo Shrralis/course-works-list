@@ -5,7 +5,16 @@
       "students": [
         {
           "name": "Жиравов Ярослав",
-          "link": "http://course.shrralis.com/"
+          "link": "https://course.shrralis.com/"
+        }
+      ]
+    },
+    {
+      "name": "243",
+      "students": [
+        {
+          "name": "Абдул Салім",
+          "link": "https://telephonia.herokuapp.com"
         }
       ]
     }
