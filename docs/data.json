@@ -6,6 +6,10 @@
         {
           "name": "Жиравов Ярослав",
           "link": "https://course.shrralis.com/"
+        },
+        {
+          "name": "Шпилька Анатолій",
+          "link": "https://company-is.herokuapp.com/"
         }
       ]
     },
@@ -14,7 +18,7 @@
       "students": [
         {
           "name": "Абдул Салім",
-          "link": "https://telephonia.herokuapp.com"
+          "link": "https://telephonia.herokuapp.com/"
         }
       ]
     }
