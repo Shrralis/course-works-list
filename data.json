@@ -1,6 +1,15 @@
 {
   "payload": [
     {
+      "name": "343",
+      "students": [
+        {
+          "name": "Ганкевич Владислав",
+          "link": "http://sitewp.s-host.net/public/"
+        }
+      ]
+    },
+    {
       "name": "343ск",
       "students": [
         {
