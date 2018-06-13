@@ -23,6 +23,10 @@
         {
           "name": "Шпилька Анатолій",
           "link": "https://company-is.herokuapp.com/"
+        },
+        {
+          "name": "Цуркан Віталій"
+          "link": "https://airportis.000webhostapp.com"
         }
       ]
     },
@@ -63,7 +67,7 @@
         },
         {
           "name": "Лакуста Володимир",
-          "link": "http://kursovalakusta.herokuapp.comИмяч"
+          "link": "http://kursovalakusta.herokuapp.com"
         },
         {
           "name": "Єсипчук Андрій",
@@ -88,6 +92,14 @@
         {
           "name": "Долженко Валерія",
           "link": "https://kursovadolzhenko.herokuapp.com/typeofabonement.html"
+        },
+        {
+          "name": "Гунько Віталій",
+          "link": "https://hunko.herokuapp.com/index.html"
+        },
+        {
+          "name": "Циганович Олександр",
+          "link": "https://courseworkdforchu.herokuapp.com/"
         }
       ]
     }
